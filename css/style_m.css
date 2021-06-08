@@ -1,0 +1,239 @@
+/*  VISUALISATION DES BLOCS  */
+
+	/*div, header, section, article, aside, nav {
+		border: 1px dashed rgba(0,0,0,0.15);
+		background-color: rgba(0,0,0,0.05);
+	}*/
+
+	/*.clear {
+		border: 1px dashed red;
+	}*/
+
+/*GLOBAL */
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+
+body {
+	font-family: "Open Sans", serif;
+	font-size: 1em;
+	margin: 0;
+	color:black;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+a {
+	color:pink;
+	text-decoration: solid;
+}
+
+header{
+	display: flex;
+	justify-content:space-around;
+
+}
+
+header nav {
+	display: flex;
+	justify-content:space-around;
+	width: 100%;
+}
+header nav a{
+	display: flex;
+	flex-direction: column;
+	color: #1B2E70;
+}
+header h1{
+	font-size: 3em;
+}
+h1, h2, h3 {
+	font-family: "Candal";
+	font-weight: normal;
+	text-align: center;
+}
+
+hr {
+	height: 1px;
+	border: 0;
+	background-color: #EACEE4;
+	margin: 50px;
+}
+
+.clear {
+	overflow: auto;
+}
+
+/* NAV */
+
+
+nav a .fa {
+	display: block;
+}
+
+/* HEADER */
+header {
+	background-image: url(../img/fond.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 25px;
+}
+
+header p{
+	font-size:2em;
+}
+
+header nav {
+	display: flex;
+	text-align: center;
+	vertical-align: middle;
+	align-items: center;
+}
+
+header nav a {
+	font-size: 1.5em;	
+	margin: 0 20px;
+}
+
+header nav a:hover{
+	color: pink;
+}
+header nav a .clicked{
+	color: pink;
+}
+
+/* MAIN */
+.about{
+	display: flex;
+	color: white;
+	align-items: center;
+	padding: 25px;
+}
+
+.promo {
+	background-color: pink;
+	padding: 5px;
+	margin: 0;
+	text-align: left;
+	color: white;
+	font-size: 1.2em;
+}
+
+.promo strong {
+	font-weight: normal;	
+}
+/* SECTION INFO */
+
+main h2{
+	font-size: 1.8em;
+	padding: 25px;
+	border: 1px dashed rgba(0,0,0,0.15);
+	border-style: dashed dashed hidden dashed ;
+}
+
+main h2{
+	font-size: 1.2em;
+}
+
+.about{
+	height: 400px;
+	background-image: url(../img/background.jpg);
+}
+section{
+    padding-bottom: 25px;
+}
+
+.description{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.description article{
+	width: 100%;
+	text-align: center;
+	padding: 25px;
+}
+.description article i{
+	color: pink;
+}
+
+.description article h3{
+	color: pink;
+}
+
+.mutualise{
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+}
+.mutualise article{
+    width: 30%;
+    text-align: center;
+    padding: 25px;
+    border: 1px dashed rgba(0,0,0,0.15);
+}
+
+.mutualise h2{
+	font-size: 1.2em;
+	background-color: royalblue;
+	color:white;
+}
+
+.mutualise article span{
+	font-size: 1em;
+	background-color: pink;
+    color:white;
+    padding: 10px;
+   display: block;
+}
+
+.mutualise article span a{
+    color:white;
+}
+
+#info form {
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#info fieldset {
+	margin: 25px 0;
+}
+
+#info li {
+	display: inline-block;
+}
+
+#info form input[type=text]{
+	border: 0;
+	border-bottom: 1px solid #dedede;
+	background-color: white;
+	padding: 5px;
+	width: 50%;
+}
+
+/* FOOTER */
+
+
+.licence {
+	background-color: #1B2E70;;
+	width: 100%;
+}
+
+footer nav {
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+}
+
+footer nav a {
+	text-align: center;
+	font-size: 1em;
+	text-decoration: solid;
+	vertical-align: middle;
+	margin: 20px;
+	padding-bottom: 50px;
+	color: white;
+}
